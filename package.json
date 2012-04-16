@@ -1,0 +1,36 @@
+{
+  "name": "grunt-couchapp",
+  "description": "Grunt task to compile and upload CouchApps.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/puls/grunt-couchapp",
+  "author": {
+    "name": "Jim Puls",
+    "email": "jim@nondifferentiable.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puls/grunt-couchapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/puls/grunt-couchapp/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/puls/grunt-couchapp/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-couchapp",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+	"couchapp": "*"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
